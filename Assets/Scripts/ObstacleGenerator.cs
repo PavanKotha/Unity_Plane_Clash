@@ -21,7 +21,6 @@ public class ObstacleGenerator : MonoBehaviour
         {
             for (int j = 0; j < groundScaleZ / width;)
             {
-                Debug.Log("i : " + i + " j : " + j);
                 int height = Random.Range(1, maxHeight);
                 Vector3 position = new Vector3((i+0.5f) * length , height / 2, (j+0.5f) * width );
                 
